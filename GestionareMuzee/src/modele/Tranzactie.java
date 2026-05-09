@@ -34,19 +34,19 @@ public class Tranzactie {
     }
 
     public boolean procesarePlata() {
-        System.out.println("Se procesează plata de " + sumaTotala + " lei prin " + metoda + "...");
+        System.out.println("Se proceseaza plata de " + sumaTotala + " lei prin " + metoda + "...");
         if (sumaTotala > 0) {
-            System.out.println("Plata procesată cu succes!");
+            System.out.println("Plata procesata cu succes!");
             return true;
         }
-        System.out.println("Eroare: Tranzacție goală!");
+        System.out.println("Eroare: Tranzactie goala!");
         return false;
     }
 
     public void generareChitanta() {
-        System.out.println("--- CHITANȚĂ Tranzacția #" + idTranzactie + " ---");
-        System.out.println("Total plătit: " + sumaTotala + " (" + metoda + ")");
-        System.out.println("Bilete achiziționate: " + bilete.size());
+        System.out.println("--- CHITANTA Tranzactia #" + idTranzactie + " ---");
+        System.out.println("Total platit: " + sumaTotala + " (" + metoda + ")");
+        System.out.println("Bilete achizitionate: " + bilete.size());
         System.out.println("--------------------------------");
     }
 }

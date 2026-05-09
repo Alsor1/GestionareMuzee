@@ -12,11 +12,11 @@ public abstract class Utilizator {
     }
 
     public boolean login() {
-        System.out.println(nume + " s-a autentificat în sistem.");
+        System.out.println(nume + " s-a autentificat in sistem.");
         return true;
     }
 
     public void logout() {
-        System.out.println(nume + " a ieșit din cont.");
+        System.out.println(nume + " a iesit din cont.");
     }
 }

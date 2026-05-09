@@ -22,11 +22,11 @@ public class Expozitie {
 
     public void adaugaExponat(Exponat exponat) {
         this.exponate.add(exponat);
-        System.out.println("Exponatul a fost adăugat în expoziția: " + this.nume);
+        System.out.println("Exponatul a fost adaugat in expozitia: " + this.nume);
     }
 
     public void scoateExponat(Exponat exponat) {
         this.exponate.remove(exponat);
-        System.out.println("Exponatul a fost retras din expoziție.");
+        System.out.println("Exponatul a fost retras din expozitie.");
     }
 }

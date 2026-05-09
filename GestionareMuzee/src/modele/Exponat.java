@@ -18,6 +18,6 @@ public class Exponat {
     }
 
     public void actualizareStare() {
-        System.out.println("Starea exponatului " + denumire + " a fost actualizată în baza de date.");
+        System.out.println("Starea exponatului " + denumire + " a fost actualizată in baza de date.");
     }
 }

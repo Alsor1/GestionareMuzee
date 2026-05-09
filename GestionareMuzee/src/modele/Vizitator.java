@@ -17,7 +17,7 @@ public class Vizitator extends Utilizator {
     }
 
     public Bilet cumparaBilet(Tranzactie tranzactie, TipBilet tip, double pret) {
-        System.out.println("Vizitatorul " + this.nume + " a inițiat cumpărarea unui bilet.");
+        System.out.println("Vizitatorul " + this.nume + " a initiat cumpararea unui bilet.");
         return tranzactie.adaugaBiletInTranzactie(tip, pret);
     }
 }
